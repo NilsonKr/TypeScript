@@ -9,7 +9,7 @@ const newPerson = { ...person2, city: 'Seoul' };
 
 const isJSObjectInstance = newPerson instanceof Object;
 
-console.log(isJSObjectInstance);
+console.log(isJSObjectInstance); //true
 
 console.log(newPerson.city);
 
