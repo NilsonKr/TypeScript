@@ -7,7 +7,6 @@ let anotherUsers: string[] = ['Nilson', 'Minari', 'Sana'];
 
 listOfUsers = [user, 'Minari', 'Jihyo'];
 anotherUsers = ['Momo', 'Minari', user];
-
 // listOfUsers = [2, 4, 6]; //Type Error
 
 //<-------------------ARRAYS Multiple Type----------------------->
