@@ -25,3 +25,21 @@ const genPicture = (title: string, size: pictureSize, date?: string): object => 
 const myPicture: object = genPicture('Seoul Trip', '500x500');
 
 console.log(myPicture);
+
+//Handling Returned values
+
+const handleError = (code: number, message: string): never | string => {
+	if (message === 'error') {
+		throw new Error(`code: ${code}, Has occurred an Error!`);
+	} else {
+		return `Everything Alright so far , code: ${code}`;
+	}
+};
+
+try {
+	let result = handleError(200, 'OK');
+	console.log(result);
+	result = handleError(404, 'error');
+} catch (error) {
+	console.log(error.message);
+}
