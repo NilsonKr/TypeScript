@@ -1,4 +1,5 @@
 //<----------------OPTIONAL PROPS INTERFACES----------------->
+export {};
 interface AlbumConfig {
 	name?: string;
 	date?: Date | string;
